@@ -18,8 +18,9 @@ import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
-import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
-import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
+// import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
+// import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
+import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter'
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
@@ -52,8 +53,9 @@ DecoupledEditor.builtinPlugins = [
 	Strikethrough,
 	Underline,
 	BlockQuote,
-	CKFinder,
-	EasyImage,
+	// CKFinder,
+	// EasyImage,
+    SimpleUploadAdapter,
 	Heading,
 	Image,
 	ImageCaption,
